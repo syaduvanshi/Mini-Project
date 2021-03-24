@@ -67,8 +67,9 @@ main{
 #form{
     background-color: tomato;
     margin: 30px;
-    padding-right:50px ;
-    padding-left: 50px;
+    padding-right:100px ;
+    padding-left: 100px;
     padding-top: 40px;
     padding-bottom: 160px;
+    width:400 px;
 }

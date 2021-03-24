@@ -1,14 +1,14 @@
-document.getElementById('btn-submit').addEventListener('click',addEle);
+document.getElementById('btn').addEventListener('click',addEle);
 function addEle(){
     var pattern = /@gmail.com/i;
     var mobilepatt = /[0-9]/;
     var name = document.getElementById("name").value;
     var passName = document.getElementById("box1");
     passName.innerHTML = name;
-    var email = document.getElementById("mobile").value;
+    var email = document.getElementById("email").value;
     var passEmail =  document.getElementById("box3");
     passEmail.innerHTML = email;
-    var mobile =  document.getElementById("email").value;
+    var mobile =  document.getElementById("mobile").value;
     var passMobile =  document.getElementById("box2");
     passMobile.innerHTML= mobile;
     var mobileval = mobile.match(mobilepatt);
