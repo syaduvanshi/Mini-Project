@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+    align-items: center;
+    flex-direction: column;
+    background-color: slateblue;
+}
+
+frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    width: 400px;
+    
+
+}
+h1{
+    font-size: 30px;
+    font-style: Calibri;
+    margin: 20px;
+    text-align: center;
+}
+
+#ab , #bc , #cd{
+    flex-direction: row;
+    padding: 10px;
+}
+
+#btn
+{
+    padding: 4%;
+    border: 0;
+    cursor: pointer;
+    color:black ;
+    font-size: large;
+    margin-top: 30px;
+    background-color: seagreen;
+    width: 50%;
+    font-weight: bold;
+    
+}
+
+#name, #mobile, #email{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20pxs;
+
+}
+ 
+label{
+    font-size: large;
+    font-weight: bold;
+    
+}
+#ef{
+    align-items: center;
+}
+main{
+    background-color: snow;
+    width: fit-content;
+    height: fit-content;
+}
+#form{
+    background-color: tomato;
+    margin: 30px;
+    padding-right:50px ;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
